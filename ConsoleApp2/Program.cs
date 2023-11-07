@@ -10,7 +10,7 @@ internal partial class Program
 {
     private static async Task Main(string[] args)
     {
-        var client = new TelegramBotClient(File.ReadAllText("D:\\desk\\testc\\network_test\\ConsoleApp1\\TG_API.txt"));
+        var client = new TelegramBotClient(File.ReadAllText("D:\\desk\\testc\\network_test\\ConsoleApp1\\TG_Token.txt"));
 
         client.StartReceiving(Update, Error);
 

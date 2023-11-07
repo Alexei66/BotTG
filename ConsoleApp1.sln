@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{75D41CF3-1813-42DD-B46D-3FE49FA06A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGBot", "TGBot\TGBot.csproj", "{F9AFAC6D-BC53-4D33-A94C-9D5DEC01E34A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGBot", "TGBot\TGBot.csproj", "{F9AFAC6D-BC53-4D33-A94C-9D5DEC01E34A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerService1", "WorkerService1\WorkerService1.csproj", "{F8E3348C-47DB-46CE-A983-1EDC1DA5BC61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F9AFAC6D-BC53-4D33-A94C-9D5DEC01E34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9AFAC6D-BC53-4D33-A94C-9D5DEC01E34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9AFAC6D-BC53-4D33-A94C-9D5DEC01E34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E3348C-47DB-46CE-A983-1EDC1DA5BC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E3348C-47DB-46CE-A983-1EDC1DA5BC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E3348C-47DB-46CE-A983-1EDC1DA5BC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E3348C-47DB-46CE-A983-1EDC1DA5BC61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
