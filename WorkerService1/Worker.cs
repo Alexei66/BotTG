@@ -39,7 +39,7 @@ public class Worker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        // _logger.LogInformation("Worker is running.");
+        /*// _logger.LogInformation("Worker is running.");
         //while (!stoppingToken.IsCancellationRequested)
         //{
         //    try
@@ -58,8 +58,8 @@ public class Worker : BackgroundService
         //    }
         //    await Task.Delay(500, stoppingToken);
         //}
+        //var client = new TelegramBotClient(botToken);*/
 
-        //var client = new TelegramBotClient(botToken);
         _botClient.StartReceiving(Update, Error);
 
         while (!stoppingToken.IsCancellationRequested)
